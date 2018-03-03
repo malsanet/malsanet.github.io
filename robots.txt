@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: http://37.230.249.19/sitemap.xml
