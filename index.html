@@ -76,7 +76,7 @@
 	</noscript> -->
 <!-- /Yandex.Metrika counter -->
 
-	<script src="jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<style type="text/css">
 		.global-loader {
 			z-index: 100000;
@@ -132,7 +132,7 @@
 			display: none;
 		}
 	</style>
-	<!-- <script>
+	<script>
 			$(document).ready(function(){
 				if(window.location.href == 'http://malsanet.github.io/') {
 					$('.menu-items>li:eq(3)').append("<a href='http://malsanet.github.io/' class='link_vtb' target='_blank'></a>");
@@ -146,12 +146,12 @@
 					$('.link_vtb').fadeOut();
 				}
 			});
-		</script>	 -->
+		</script>	
 </head>
 
 <body class="disable-bg-animation hide-menu">
 
-	<!-- <div class="global-loader" id="_globalLoader">
+	<div class="global-loader" id="_globalLoader">
 		<svg id="gk-rus-loader" xmlns="http://www.w3.org/2000/svg" width="264" height="52" viewBox="0 0 264 52">
 			<defs>
 				<style>
@@ -200,7 +200,7 @@
 			<path id="loader_part_o_3" class="loader-part cls-1" d="M95.282,46.967h10.968V35.936H95.282V46.967z" />
 			<path id="loader_part_o_2" class="loader-part cls-1" d="M95.282,36.842h10.968V25.811H95.282V36.842z" />
 			<path id="loader_part_o_1" class="loader-part cls-1" d="M95.282,26.154h10.968V4.875H95.282V26.154z" />
-		</svg> -->
+		</svg>
 
 	</div>
 	<div id="panel"></div>
@@ -1459,188 +1459,188 @@
 		<script src="bitrix/templates/glavkino_ru/plugins/scripts.js"></script>
 		<script>
 			function animateLoader() {
-				// var scale;
-				// var minWidth = 980;
-				// var currentWidth = $(window).width();
-				// var modalHeight = $(window).height();
-				// if (parseInt(currentWidth) < parseInt(minWidth) && parseInt(currentWidth) > parseInt(mobileWidth)) {
-				// 	scale = (currentWidth * 100 / minWidth) / 100;
-				// 	modalHeight = modalHeight * (1 / scale);
-				// }
-				// $('#_globalLoader').height(modalHeight);
+				var scale;
+				var minWidth = 980;
+				var currentWidth = $(window).width();
+				var modalHeight = $(window).height();
+				if (parseInt(currentWidth) < parseInt(minWidth) && parseInt(currentWidth) > parseInt(mobileWidth)) {
+					scale = (currentWidth * 100 / minWidth) / 100;
+					modalHeight = modalHeight * (1 / scale);
+				}
+				$('#_globalLoader').height(modalHeight);
 
-				// var from = 300;
-				// var to = 1000;
+				var from = 300;
+				var to = 1000;
 
-				// var time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_1').classList.add('loader-part-show');
-				// }, time);
+				var time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_1').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_2').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_2').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_3').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_3').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_4').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_4').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_5').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_5').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_6').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_6').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_7').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_7').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_8').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_8').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_9').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_9').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_10').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_10').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_11').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_11').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_h_12').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_h_12').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_1').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_1').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_2').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_2').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_3').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_3').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_4').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_4').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_5').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_5').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_6').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_6').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_6-2').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_6-2').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_7').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_7').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_8').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_8').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_v_9').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_v_9').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	if (document.getElementById('loader_part_v_10'))
-				// 		document.getElementById('loader_part_v_10').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					if (document.getElementById('loader_part_v_10'))
+						document.getElementById('loader_part_v_10').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	if (document.getElementById('loader_part_v_11'))
-				// 		document.getElementById('loader_part_v_11').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					if (document.getElementById('loader_part_v_11'))
+						document.getElementById('loader_part_v_11').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	if (document.getElementById('loader_part_v_12'))
-				// 		document.getElementById('loader_part_v_12').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					if (document.getElementById('loader_part_v_12'))
+						document.getElementById('loader_part_v_12').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	if (document.getElementById('loader_part_v_13'))
-				// 		document.getElementById('loader_part_v_13').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					if (document.getElementById('loader_part_v_13'))
+						document.getElementById('loader_part_v_13').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	if (document.getElementById('loader_part_v_14'))
-				// 		document.getElementById('loader_part_v_14').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					if (document.getElementById('loader_part_v_14'))
+						document.getElementById('loader_part_v_14').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_o_1').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_o_1').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_o_2').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_o_2').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_o_3').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_o_3').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_o_4').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_o_4').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_o_5').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_o_5').classList.add('loader-part-show');
+				}, time);
 
-				// time = Math.floor((Math.random() * to) + from);
-				// setTimeout(function () {
-				// 	document.getElementById('loader_part_o_6').classList.add('loader-part-show');
-				// }, time);
+				time = Math.floor((Math.random() * to) + from);
+				setTimeout(function () {
+					document.getElementById('loader_part_o_6').classList.add('loader-part-show');
+				}, time);
 			}
 			animateLoader();
 			$('body').jpreLoader({
