@@ -1,0 +1,15 @@
+{
+  "name": "malsanet.github.io",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
